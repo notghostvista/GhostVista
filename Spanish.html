@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GhostVista.EXE | Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <meta name="description" content="Descargas a ISOs y más">
+    <meta name="keywords" content="ISOs, Tech, Tecnología, Descargas, GhostVista">
+    <meta name="author" content="GhostVista">
+    <meta http-equiv="refresh" content="30">
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="GhostVista.EXE">
+    <meta property="og:description" content="Descargas a ISOs y más">
+    <meta property="og:image" content="path/to/image.jpg">
+    <meta property="og:url" content="yourwebsite.com">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center; /* Center the header text */
+            padding: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px; /* Adjusted margin */
+        }
+
+        .button-container a {
+            text-decoration: none;
+        }
+
+        .button-container button {
+            background-color: #797979;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .button-container button:hover {
+            background-color: #000000;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 0;
+            margin: 0 auto;
+            display: block;
+            width: fit-content;
+        }
+
+        li {
+            margin: 5px 0;
+            text-align: left;
+        }
+
+        /* Language selector styling */
+        .language-selector {
+            margin-top: 10px;
+            text-align: center; /* Center the language dropdown */
+        }
+
+        .language-selector select {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #797979;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .language-selector select:hover {
+            background-color: #000000; /* Change background on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="C:\Users\GhostToad5\Desktop\Site\Images\channels4_profile.png">
+        <h1>¡Hola, Yo soy GhostVista!</h1>
+        <p>Aka GhostVista Technology</p>
+        <div class="button-container">
+            <a href="Spanish.html" aria-label="Página principal">
+                <button>Inicio</button>
+            </a>
+            <a href="downloades.html" aria-label="Página de descargas">
+                <button>Descargas</button>
+            </a>
+        </div>
+    </header>
+    <hr>
+
+    <main>
+        <section>
+            <p>¡Bienvenido a mi sitio web! Soy un YouTuber de Juegos y Tecnología (también conocido como GhostVista Technology). Este sitio web sirve como un portafolio y ofrece descargas de ISOs y otros recursos.</p>
+            <p><span style="color: red;">(NO SE COMPARTEN MEDIOS PIRATAS EN ESTE SITIO WEB)</span></p>
+        </section>
+        
+        <section>
+            <h3>Sobre Mí:</h3>
+            <p>Soy un chico Mexicano-Estadounidense de 15 años que siempre ha querido hacer YouTube. Comencé a subir videos el 1 de septiembre de 2020. Además de YouTube, tengo pasión por el Desarrollo de Videojuegos y la Informática. ¡He soñado con hacer mi propio videojuego desde 2019!</p>
+        </section>
+
+        <section>
+            <h3>¿Qué subo?</h3>
+            <p>¡Solo subo dos tipos de contenido:</p>
+            <ul>
+                <li>Videojuegos</li>
+                <li>Tecnología</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="button-container">
+            <a href="https://www.youtube.com/@notghostvista" aria-label="Visita mi canal de YouTube">
+                <button>Canal de YouTube</button>
+            </a>
+            <a href="mailto:toadvillebay@gmail.com" aria-label="Envíame un correo">
+                <button>Email Mi</button>
+            </a>
+        </div>
+        
+        <!-- Language dropdown in the footer -->
+        <div class="language-selector">
+            <select id="language-select" onchange="changeLanguage()">
+                <option value="Spanish.html">Español</option>
+                <option value="French.html">Francés</option>
+                <option value="index.html">Inglés</option>
+            </select>
+        </div>
+        
+        <p>&copy; Copyright 2024 | Desarrollado por GhostVista</p>
+    </footer>
+
+    <script>
+        function changeLanguage() {
+            var languageSelect = document.getElementById('language-select');
+            var selectedLanguage = languageSelect.value;
+            window.location.href = selectedLanguage; // Redirects to the selected language page
+        }
+    </script>
+</body>
+</html>

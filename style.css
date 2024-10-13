@@ -1,0 +1,98 @@
+body{
+    background-color: black;   
+
+h1{
+    justify-content: center;
+    display: flex;
+    color: rgb(7, 148, 71);
+    font-family: "press Start 2p"
+    
+    
+}
+
+p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    display: flex;
+
+}
+
+h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+h4{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+h5{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+button{
+    color: rgb(8, 124, 80);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center; /* Centers buttons vertically (if needed) */
+}
+
+ul{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    list-style-type: disc; /* Ensure bullet points */
+    padding-left: 0; /* Remove default padding */
+    margin: 0 auto; /* Center the list */
+    display: block; /* Ensure it takes up full width for proper centering */
+    width: fit-content; /* Adjust the width to wrap around the content */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container a {
+    text-decoration: none;
+}
+
+.button-container button {
+    background-color: #797979;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-container button:hover {
+    background-color: #000000;
+}
+
+}
+
+/* Center the unordered list and retain bullet points */
+
+li {
+    margin: 5px 0; /* Add space between list items */
+    text-align: left; /* Left-align the text of each item */
+}

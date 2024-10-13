@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GhostVista.EXE | Home </title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Downloads to ISOs and More">
+    <meta name="keywords" content="ISOs, Tech, Technology, Downloads, GhostVista">
+    <meta name="author" content="GhostVista">
+    <meta http-equiv="refresh" content="30">
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="GhostVista.EXE">
+    <meta property="og:description" content="Downloads to ISOs and More">
+    <meta property="og:image" content="path/to/image.jpg">
+    <meta property="og:url" content="yourwebsite.com">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+        }
+
+        header {
+            text-align: center; /* Center the header text */
+            padding: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center; /* Center the buttons in the header */
+            margin-top: 10px; /* Adjusted margin */
+        }
+
+        .button-container a {
+            text-decoration: none;
+        }
+
+        .button-container button {
+            background-color: #797979;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .button-container button:hover {
+            background-color: #000000;
+        }
+
+        main {
+            padding: 20px; /* Add padding for main content */
+            text-align: left; /* Align text to the left */
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px; /* Add padding for the list */
+            margin: 0; /* Remove margin */
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        footer {
+            text-align: center; /* Center the footer */
+            margin-top: 20px; /* Add margin to top */
+        }
+
+        /* Language selector styling */
+        .language-selector {
+            margin-top: 10px;
+            text-align: center; /* Center the language dropdown */
+        }
+
+        .language-selector select {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #797979;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .language-selector select:hover {
+            background-color: #000000; /* Change background on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="C:\Users\GhostToad5\Desktop\Site\Images\channels4_profile.png">
+        <h1>Hello, I am GhostVista!</h1>
+        <p>Aka GhostVista Technology</p>
+        <div class="button-container">
+            <a href="index.html" aria-label="Main Page">
+                <button>Home</button>
+            </a>
+            <a href="downloads.html" aria-label="Downloads Page">
+                <button>Downloads</button>
+            </a>
+        </div>
+    </header>
+    <hr>
+
+    <main>
+        <section>
+            <p>Welcome to my website! I am a Gaming and Tech YouTuber (aka GhostVista Technology)! This website serves as a portfolio and offers downloads to ISOs and other resources.</p>
+            <p><span style="color: red;">(NO PIRATED MEDIA IS SHARED ON THIS WEBSITE)</span></p>
+        </section>
+        
+        <section>
+            <h3>About Me:</h3>
+            <p>I am a 15-year-old Mexican American dude who has always wanted to do YouTube. I started uploading videos on September 1, 2020. Besides YouTube, I'm passionate about Video Game Development and Computer Science. I've dreamed of making my own video game since 2019!</p>
+        </section>
+
+        <section>
+            <h3>What do I upload?</h3>
+            <p>I only upload two types of content:</p>
+            <ul>
+                <li>Games</li>
+                <li>Technology</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="button-container">
+            <a href="https://www.youtube.com/@notghostvista" aria-label="Visit my YouTube channel">
+                <button>YouTube Channel</button>
+            </a>
+            <a href="mailto:toadvillebay@gmail.com" aria-label="Email me">
+                <button>Email Me</button>
+            </a>
+        </div>
+        
+        <!-- Language dropdown in the footer -->
+        <div class="language-selector">
+            <select id="language-select" onchange="changeLanguage()">
+                <option value="index.html">English</option>
+                <option value="French.html">French</option>
+                <option value="Spanish.html">Spanish</option>
+            </select>
+        </div>
+        
+        <p>&copy; Copyright 2024 | Developed by GhostVista</p>
+    </footer>
+
+    <script>
+        function changeLanguage() {
+            var languageSelect = document.getElementById('language-select');
+            var selectedLanguage = languageSelect.value;
+            window.location.href = selectedLanguage; // Redirects to the selected language page
+        }
+    </script>
+</body>
+</html>

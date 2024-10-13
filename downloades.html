@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GhostVista.EXE | Descargas</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Descargas de ISOs y más">
+    <meta name="keywords" content="ISOs, Tecnología, Descargas, GhostVista">
+    <meta name="author" content="GhostVista">
+    <meta http-equiv="refresh" content="30">
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="GhostVista.EXE">
+    <meta property="og:description" content="Descargas de ISOs y más">
+    <meta property="og:image" content="path/to/image.jpg">
+    <meta property="og:url" content="yourwebsite.com">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+        }
+
+        header {
+            text-align: center; /* Center the header text */
+            padding: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center; /* Center the buttons in the header */
+            margin-top: 10px; /* Adjusted margin */
+        }
+
+        .button-container a {
+            text-decoration: none;
+        }
+
+        .button-container button {
+            background-color: #797979;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .button-container button:hover {
+            background-color: #000000;
+        }
+
+        main {
+            max-width: 800px; /* Limit width of main content */
+            margin: 20px auto; /* Center the main content */
+            padding: 0 20px; /* Add padding */
+            text-align: left; /* Align text to the left */
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px; /* Add padding for the list */
+            margin: 0; /* Remove margin */
+        }
+
+        li {
+            margin: 5px 0;
+            text-align: left;
+        }
+
+        footer {
+            text-align: center; /* Center the footer */
+            margin-top: 20px; /* Add margin to top */
+        }
+
+        /* Language selector styling */
+        .language-selector {
+            margin-top: 10px;
+            text-align: center; /* Center the language dropdown */
+        }
+
+        .language-selector select {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #797979;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .language-selector select:hover {
+            background-color: #000000; /* Change background on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="C:\Users\GhostToad5\Desktop\Site\Images\channels4_profile.png">
+        <h1>Descargas</h1>
+        <p>Aquí puedes encontrar descargas de software y más.</p>
+        <div class="button-container">
+            <a href="index.html" aria-label="Página Principal">
+                <button>Inicio</button>
+            </a>
+            <a href="downloads.html" aria-label="Página de Descargas">
+                <button>Descargas</button>
+            </a>
+        </div>
+    </header>
+    <hr>
+
+    <main>
+        <section>
+            <p>Aquí puedes encontrar descargas de ISOs, software, fondos de pantalla y más.</p>
+            <p><span style="color: red;">(NO SE COMPARTEN MEDIOS PIRATEADOS EN ESTE SITIO WEB)</span></p>
+        </section>
+
+        <section>
+            <h3>Lista de Descargas que Ofrecemos</h3>
+            <p>Actualmente tenemos:</p>
+            <ul>
+                <div class="button-container">
+                    <a href="ISOs.html" aria-label="Descargar ISOs">
+                        <button>Descargar ISOs</button>
+                    </a>
+                </div>
+                <div class="button-container">
+                    <a href="Software.html" aria-label="Descargar Software">
+                        <button>Descargar Software</button>
+                    </a>
+                </div>
+                <div class="button-container">
+                    <a href="Wallpapers.html" aria-label="Descargar Fondos de Pantalla">
+                        <button>Descargar Fondos de Pantalla</button>
+                    </a>
+                </div>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="button-container">
+            <a href="https://www.youtube.com/@notghostvista" aria-label="Visita mi canal de YouTube">
+                <button>Canal de YouTube</button>
+            </a>
+            <a href="mailto:toadvillebay@gmail.com" aria-label="Envíame un correo electrónico">
+                <button>Envíame un correo</button>
+            </a>
+        </div>
+        
+        <!-- Language dropdown in the footer -->
+        <div class="language-selector">
+            <select id="language-select" onchange="changeLanguage()">
+                <option value="downloades.html">Español</option>
+                <option value="download-fr.html">Francés</option>
+                <option value="downloads.html">Inglès</option>
+            </select>
+        </div>
+        
+        <p>&copy; Copyright 2024 | Desarrollado por GhostVista</p>
+    </footer>
+
+    <script>
+        function changeLanguage() {
+            var languageSelect = document.getElementById('language-select');
+            var selectedLanguage = languageSelect.value;
+            window.location.href = selectedLanguage; // Redirects to the selected language page
+        }
+    </script>
+</body>
+</html>
